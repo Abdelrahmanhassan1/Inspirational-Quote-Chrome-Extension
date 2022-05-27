@@ -8,6 +8,11 @@
     "default_popup": "index.html",
     "default_title": "Block Social Media and get little break"
   },
+  "icons": {
+    "16": "./images/creativity16.png",
+    "48": "./images/creativity48.png",
+    "128": "./images/creativity128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
