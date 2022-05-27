@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Social Media Blocker",
+  "description": "Block social media from your website",
+  "author": "Abdelrahman Hassan",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Block Social Media and get little break"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #fecbcb, rgb(183, 243, 236));
+  width: 700px;
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+#quote {
+  font-size: 1.2rem;
+  margin: 10px;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
+#author {
+  font-size: 1rem;
+  margin: 10px;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
