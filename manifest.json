@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Social Media Blocker",
-  "description": "Block social media from your website",
+  "name": "Inspirational Quote",
+  "description": "Get quote every day.",
   "author": "Abdelrahman Hassan",
   "version": "1.0.0",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Block Social Media and get little break"
+    "default_title": "get inspired by quotes"
   },
   "icons": {
     "16": "./images/creativity16.png",
